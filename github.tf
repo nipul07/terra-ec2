@@ -19,7 +19,7 @@ provider "aws" {
 
 # Configure the GitHub Provider
 provider "github" {
-  token = "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"
+  token = ""
 }
 
 resource "github_repository" "terra-ec2" {
